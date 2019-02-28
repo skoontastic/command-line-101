@@ -1,0 +1,68 @@
+# Command Line 101 Outline
+
+- ## 01 What is the Command Line?
+    - Command Line Structure
+        - Prompt
+        - Commands
+        - Options
+        - Arguments
+        - Output
+    - Shell
+        - Bash
+- ## 02 Getting Around
+    - `pwd`
+    - `ls`
+        - `ls [options] [location]`
+        - `ls -l /folder`
+        - `ls -a`
+    - Absolute and Relative Paths
+        - Slash vs No Slash
+    - Path Shortcuts
+        - `~`
+            - Home
+        - `.`
+            - Current Directory
+        - `..`
+            - Parent Directory
+    - Moving
+        - `cd`
+            - No path = go home
+            - Tab completion
+- ## 03 Files
+    - Case Sensitive
+    - Spaces in File Names
+        - Quotes
+            - Single or Double
+        - Escape character
+            - `\`
+        - Tab completion is your friend
+    - Hidden Files
+        - `ls -a`
+    - File Directories
+        - `mkdir [options] <Directory>`
+        - `mkdir -p`
+            - Makes parent directories as needed
+        - `mkdir -v`
+            - Verbose output
+        - `rmdir`
+            - Directories must be empty
+    - Files
+        - `touch`
+            - Creates a blank file
+        - `cp [options] <source path> <destination path>`
+            - Copy a file or directory
+            - `cp -r`
+             - Recursive for directories
+        - `mv [options] <source> <destination>`
+            - Move a file or directory
+            - Also renames a file or directory
+        - `rm [options] <file>`
+            - Remove a file or empty folder
+            - NO UNDO!!!!
+            - `rm -r`
+                - Remove non-empty folders recursively
+    - Editing Files
+        - `nano`
+            - `ctrl o`
+            - `ctrl x`
+        - `vi`
