@@ -30,6 +30,7 @@
     - `cd`
         - No path = go home
         - Tab completion
+- `ctrl-c`
 ## Files
 - Case Sensitive
 - Spaces in File Names
@@ -142,7 +143,13 @@
         - Creates a new file, or appends to existing file
 
 ## Process Management
+- `top`
+- `htop`
+- `ps awk`
 
 ## Scripting
 
-## SSH
+## Networking
+- Ping
+- Traceroute
+- SSH
