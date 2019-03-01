@@ -1,6 +1,6 @@
 # Command Line 101 Outline
 
-## 01 What is the Command Line?
+## What is the Command Line?
 - Command Line Structure
     - Prompt
     - Commands
@@ -9,7 +9,9 @@
     - Output
 - Shell
     - Bash
-## 02 Getting Around
+- Help
+    - `man`
+## Getting Around
 - `pwd`
 - `ls`
     - `ls [options] [location]`
@@ -28,7 +30,7 @@
     - `cd`
         - No path = go home
         - Tab completion
-## 03 Files
+## Files
 - Case Sensitive
 - Spaces in File Names
     - Quotes
@@ -66,7 +68,7 @@
         - `ctrl o`
         - `ctrl x`
     - `vi`
-## 04 Wildcards
+## Wildcards
 - `*`
     - Zero or more characters
     - `ls *.txt`
@@ -78,7 +80,7 @@
     - Range of Characters
     - `ls [sv]*` (Name begins with 's' or 'v')
 
-## 05 Permissions
+## Permissions
 - Verbs
     - `r`
         - read
@@ -127,7 +129,7 @@
 - Directories work the same
 - Root user
 
-## 06 Piping and Redirection
+## Piping and Redirection
 - Three data streams
     - STDIN (0)
     - STDOUT (1)
@@ -139,8 +141,8 @@
     - `>>`
         - Creates a new file, or appends to existing file
 
-## 07 Process Management
+## Process Management
 
-## 08 Scripting
+## Scripting
 
-## 09 SSH
+## SSH
