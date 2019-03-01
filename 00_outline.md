@@ -145,7 +145,7 @@
 ## Process Management
 - `top`
 - `htop`
-- `ps awk`
+- `ps ax`
 
 ## Scripting
 
